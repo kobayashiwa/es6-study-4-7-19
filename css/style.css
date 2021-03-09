@@ -1,0 +1,137 @@
+/** base **/
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background: #fff;
+	font-family: 'Roboto Condensed', "Segoe UI", "Helvetica Neue", HelveticaNeue, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Verdana, Meiryo, sans-serif;
+    font-feature-settings: "palt";
+	letter-spacing: .8px;
+	font-size: 16px;
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
+}
+p {
+	line-height: 180%;
+}
+a {
+	text-decoration: none;
+	color: #1a1a1a;
+}
+ul, li {
+	list-style: none;
+}
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+}
+
+/** header **/
+.top-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 76px;
+	display: none;
+}
+.top-header.bisible {
+	display: block;
+}
+.logo {
+	position: absolute;
+	width: 140px;
+	top: 18px;
+	left: 80px;
+}
+.logo img {
+	width: 100%;
+}
+.logo a span {
+	display: none;
+}
+nav {
+	width: 34px;
+	height: 30px;
+	background: rgba(0, 0, 0);
+	position: absolute;
+	top: 25px;
+	right: 28px;
+}
+@media screen and (max-width: 999px) {
+	.logo {
+		width: 80px;
+		left: 30px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);		
+	}
+}
+
+/** main **/
+main {
+	width: 100%;
+	background: hsl(214, 97%, 23%, 0.5);
+}
+.mainvisual {
+	width: 100%;
+	height: 180vw;
+	background: hsl(214, 97%, 23%, 0.1);	
+}
+.current-event {
+	width: 100%;
+	height: 1000px;
+	background: hsl(214, 97%, 23%, 0.2);
+}
+.yearly-event {
+	width: 100%;
+	height: 40vw;
+	background: hsl(214, 97%, 23%, 0.3);
+}
+.outset-highlight {
+	width: 100%;
+	height: 60vw;
+	background: hsl(214, 97%, 23%, 0.4);
+}
+.outset-history {
+	width: 100%;
+	height: 20vw;
+	background: hsl(214, 97%, 23%, 0.5);
+}
+.access {
+	width: 100%;
+	height: 20vw;
+	background: hsl(214, 97%, 23%, 0.6);
+}
+.inn {
+	width: 100%;
+	height: 20vw;
+	background: hsl(214, 97%, 23%, 0.7);
+}
+@media screen and (max-width: 999px) {
+}
+
+/** footer **/
+footer {
+	width: 100%;
+	height: 140px;
+	background: #037F8C;
+}
