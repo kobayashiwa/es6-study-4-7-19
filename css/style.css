@@ -62,7 +62,7 @@ nav {
 	height: 40px;
 	background: rgba(0, 0, 0);
 	position: absolute;
-	top: 25px;
+	bottom: 0;
 	right: 28px;
 }
 @media screen and (max-width: 767px) {
