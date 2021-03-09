@@ -97,6 +97,9 @@ main {
 .item#kamon {
 	background: hsl(214, 97%, 23%, 0.3);
 }
+.item#namikasane {
+	background: hsl(214, 97%, 23%, 0.4);
+}
 
 /** footer **/k
 footer {
