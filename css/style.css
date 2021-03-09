@@ -76,20 +76,6 @@ nav {
 
 
 
-.logo {
-	position: absolute;
-	width: 140px;
-	top: 18px;
-	left: 80px;
-} 
-.logo img {
-	width: 100%;
-}
-.logo a span {
-	display: none;
-}
-
-
 /** main **/
 main {
 	width: 100%;
