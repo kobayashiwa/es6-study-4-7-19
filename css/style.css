@@ -100,6 +100,9 @@ main {
 .item#namikasane {
 	background: hsl(214, 97%, 23%, 0.4);
 }
+.item#kochoranbu {
+	background: hsl(214, 97%, 23%, 0.5);
+}
 
 /** footer **/k
 footer {
