@@ -57,21 +57,9 @@ ul, li {
 .top-header.bisible {
 	display: block;
 }
-.logo {
-	position: absolute;
-	width: 140px;
-	top: 18px;
-	left: 80px;
-}
-.logo img {
-	width: 100%;
-}
-.logo a span {
-	display: none;
-}
 nav {
-	width: 34px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	background: rgba(0, 0, 0);
 	position: absolute;
 	top: 25px;
@@ -83,6 +71,24 @@ nav {
 		background: rgba(217, 4, 43, 0.8);
 	}
 }
+
+
+
+
+
+.logo {
+	position: absolute;
+	width: 140px;
+	top: 18px;
+	left: 80px;
+} 
+.logo img {
+	width: 100%;
+}
+.logo a span {
+	display: none;
+}
+
 
 /** main **/
 main {
