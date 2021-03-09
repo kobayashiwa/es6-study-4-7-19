@@ -77,13 +77,10 @@ nav {
 	top: 25px;
 	right: 28px;
 }
-@media screen and (max-width: 999px) {
-	.logo {
-		width: 80px;
-		left: 30px;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);		
+@media screen and (max-width: 767px) {
+	.top-header {
+		height: 55px;
+		background: rgba(217, 4, 43, 0.8);
 	}
 }
 
