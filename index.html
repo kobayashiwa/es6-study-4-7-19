@@ -19,7 +19,7 @@
         <main>
             <section class="first">
                 section / first
-                <div class="logo"></div>
+                <div class="logo"><span>衣のいのち</span></div>
             </section>
             <section class="about">about</section>
             <section class="item" id="botankarakusa">botankarakusa</section>
@@ -38,8 +38,8 @@
     <script>
         // スクロール時に実行する
         $(window).scroll(function(){
-            // mainvisualの高さを取得する
-            let mainVisualHeight = $(".mainvisual").height();
+            // firstの高さを取得する
+            let mainVisualHeight = $(".first").height();
             // スクロール量の取得
             let scroll = $(this).scrollTop();
             // スクロール量がメインビジュアルの高さより大きければclassを付与する
