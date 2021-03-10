@@ -108,8 +108,13 @@ main {
 	height: 20vw;
 	background: hsl(214, 97%, 23%, 0.6);
 }
+.profile {
+	width: 100%;
+	height: 40vw;
+	background: hsl(214, 97%, 23%, 0.7);
+}
 
-/** footer **/k
+/** footer **/
 footer {
 	width: 100%;
 	height: 140px;
