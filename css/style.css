@@ -116,6 +116,7 @@ main {
 
 /** logo **/
 .logo {
+	margin: 0 auto;
 	width: 148px;
 	height: 354px;
 }
