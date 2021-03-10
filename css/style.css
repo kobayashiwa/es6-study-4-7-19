@@ -82,6 +82,10 @@ main {
 	height: 80vw;
 	background: #F2BDC6;	
 }
+.logo {
+	width: 148px;
+	height: 354px;
+}
 .about {
 	width: 100%;
 	height: 20vw;
