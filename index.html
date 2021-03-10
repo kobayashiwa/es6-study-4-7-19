@@ -13,18 +13,21 @@
     <body>
 
         <header class="top-header">
-            <div class="logo"><a href="#"><img src="img/logo.svg" alt=""></a></div>
-            <nav>nav</nav>
+            <nav></nav>
         </header>
 
         <main>
-            <section class="mainvisual">section / mainvisual</section>
-            <section class="current-event">current-event</section>
-            <section class="yearly-event">yearly-event</section>
-            <section class="outset-highlight">outset-highlight</section>
-            <section class="outset-history">outset-history</section>
-            <section class="access">access</section>
-            <section class="inn">inn</section>
+            <section class="first">
+                section / first
+                <div class="logo"><img src="./img/logo.svg" alt="衣のいのち"></div>
+            </section>
+            <section class="about">about</section>
+            <section class="item" id="botankarakusa">botankarakusa</section>
+            <section class="item" id="kamon">kamon</section>
+            <section class="item" id="namikasane">namikasane</section>
+            <section class="item" id="kochoranbu">kochoranbu</section>
+            <section class="others">others</section>
+            <section class="profile">profile</section>
         </main>
 
         <footer>footer</footer>
@@ -32,12 +35,11 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-
     <script>
         // スクロール時に実行する
         $(window).scroll(function(){
-            // mainvisualの高さを取得する
-            let mainVisualHeight = $(".mainvisual").height();
+            // firstの高さを取得する
+            let mainVisualHeight = $(".first").height();
             // スクロール量の取得
             let scroll = $(this).scrollTop();
             // スクロール量がメインビジュアルの高さより大きければclassを付与する
@@ -49,18 +51,6 @@
                 $(".top-header").removeClass("bisible");
             }
         });
-    </script>
-
-    <script>
-        class Animal {
-            constructor(name,age){
-                this.name = name;
-                this.age = age;
-            }
-        }
-        const animal = new Animal("モカ",8);
-        console.log(`名前：${animal.name}`);
-
     </script>
 
 </html>
