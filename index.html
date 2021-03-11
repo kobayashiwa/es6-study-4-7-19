@@ -53,4 +53,58 @@
         });
     </script>
 
+    <script>
+        class Animal {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+            greet() {
+                console.log("こんにちは");
+            }
+        }
+        const animal = new Animal("レオ", 3);
+        console.log(`名前：${animal.name}`);
+        console.log(`年齢：${animal.age}`);
+        animal.greet();
+
+        class Aqua {
+            constructor(merit, introduction, exhibition, summary, access, qa, contact) {
+                this.merit = merit;
+                this.introduction = introduction;
+                this.exhibition = exhibition;
+                this.summary = summary;
+                this.access = access;
+                this.qa = qa;
+                this.contact = contact;
+            }
+            greet() {
+                console.log("参加お申し込みはこちら");
+            }
+        }
+        const aqua = new Aqua("来場メリット", "アクアとは？", "展示情報", "実施概要", "アクセス", "よくある質問", "来場登録");
+        console.log(`${aqua.merit}`);
+        console.log(`${aqua.introduction}`);
+        console.log(`${aqua.exhibition}`);
+        console.log(`${aqua.summary}`);
+        console.log(`${aqua.access}`);
+        console.log(`${aqua.qa}`);
+        console.log(`${aqua.contact}`);
+        aqua.greet();
+
+        class Visual {
+            constructor(people, reason, format) {
+                this.people = people;
+                this.reason = reason;
+                this.format = format;
+            }
+            greet() {
+                console.log("AQUA VISUAL FORUM 2021");
+            }
+        }
+        const visual = new Visual(1000, "大好評", "オンライン");
+        console.log(`前回来場者数${visual.people}人以上！${visual.reason}につき${visual.format}で開催！`);
+        visual.greet();
+    </script>
+
 </html>
