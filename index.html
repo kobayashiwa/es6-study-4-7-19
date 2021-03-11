@@ -92,13 +92,18 @@
         console.log(`${aqua.contact}`);
         aqua.greet();
 
-        class visual {
+        class Visual {
             constructor(people, reason, format) {
                 this.people = people;
                 this.reason = reason;
                 this.format = format;
             }
+            greet() {
+                console.log("AQUA VISUAL FORUM 2021");
+            }
         }
+        const visual = new Visual();
+        visual.greet();
     </script>
 
 </html>
