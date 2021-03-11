@@ -102,7 +102,8 @@
                 console.log("AQUA VISUAL FORUM 2021");
             }
         }
-        const visual = new Visual();
+        const visual = new Visual(1000, "大好評", "オンライン");
+        console.log(`前回来場者数${visual.people}人以上！${visual.reason}につき${visual.format}で開催！`);
         visual.greet();
     </script>
 
